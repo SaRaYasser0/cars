@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    background-image: url(./BMW-M8-Competition-e1587337496630.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    background: rgba(0,0,0,.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+img{
+    border-radius: 100%;
+    background-color: brown;
+    margin-left: 70px;
+    position: absolute;
+    top: 10%;
+}
+
+.cont h1{
+    color: aliceblue;
+    top: 40%;
+    left: 30px;
+    position: absolute;
+}
+
+input[type="text"],[type="password"]
+{
+    position: absolute;
+    outline:none;
+    border:none;
+    top: 60%;
+    width: 250px;
+    height: 35px;
+    border-bottom:2px solid #ff0000;
+    background: none;
+    padding:5px;
+    color: white;
+}
+input[type="text"]{
+    top: 210px;
+    left: 50px;
+}
+input[type="password"]{
+    top:260px;
+    left: 50px;
+}
+::placeholder{
+    color: white;
+}
+p{
+    color: aliceblue;
+    top: 320px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+    left: 30px;
+}
+p:hover{
+    color: #ff0000;
+}
+
+input[value="login"]{
+    position: absolute;
+    top: 380px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+input[value="login"]:hover{
+    background: white;
+    color:black;
+}

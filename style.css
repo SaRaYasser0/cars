@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Arabiyat{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(350px,1fr));
+    gap:20px 40px;
+}
+.heading{
+    background-color: darkred;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 25px 0;
+    grid-column: 1/-1;
+}
+.heading h1{
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    font-size: 35px;
+}
+.heading h3{
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.car-iti{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+}
+.car-iti img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+}
+.det{
+    padding: 15px 10px;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-rows: auto 1fr 50px;
+}
+.det-it{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.det-it h5{
+    font-size: 18px;
+}
+.price{
+    text-align: right;
+}
+.det p{
+    font-size: 15px;
+}
+.btn{
+    background-color:darkred;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    width: 150px;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color:black;
+    color: white;
+}
+
+nav{
+    width: 50%;
+    height: 10vh;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    direction: none;
+}
+
+nav a:hover{
+ color:black;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+
+}
+footer{
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 20px 0;
+    font-size: 17px;
+}
+
